@@ -15,7 +15,7 @@ public class BookController {
   @Autowired
   private BookMapper bookMapper;
 
-  @RequestMapping("/")
+//  @RequestMapping("/")
   public List<Book> home() {
     return bookMapper.findAll();
   }
